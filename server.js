@@ -24,4 +24,4 @@ app.get('/help', (req, res) => {
     res.render('help.hbs'); 
 })
 
-app.listen(3000, () => console.log('App is up and running at port ' + port));
+app.listen(port, () => console.log('App is up and running at port ' + port));
